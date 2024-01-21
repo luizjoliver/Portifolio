@@ -1,10 +1,14 @@
+import About from "@/components/About";
+import Intro from "@/components/Intro";
+import Sectiondivider from "@/components/Section-divider";
 
 
 export default function Home() {
   return (
-  
-    <div>
-      <h1>Teste</h1>
-    </div>
+    <main className="flex flex-col items-center px-4">
+      <Intro/>
+      <Sectiondivider/>
+      <About/>
+    </main>
   );
 }
