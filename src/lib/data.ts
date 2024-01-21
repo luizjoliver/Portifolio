@@ -24,8 +24,8 @@ export const links = [
     hash: "#habilidades",
   },
   {
-    name: "Serviços",
-    hash: "#servicos",
+    name: "Experiência",
+    hash: "#experiencia",
   },
   {
     name: "Contato",
@@ -96,12 +96,11 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Jest",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "MySQL",
+  "Chackra UI",
+  "Materia UI",
   "Framer Motion",
 ] as const;
