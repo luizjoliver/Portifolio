@@ -8,6 +8,7 @@ import {BsArrowRight,BsLinkedin} from "react-icons/bs"
 import {HiDownload} from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa";
 import useSectionInView from "@/hooks/useSectionInView";
+import { useActiveSection } from "@/context/Active-section";
 
 
 
@@ -15,6 +16,8 @@ import useSectionInView from "@/hooks/useSectionInView";
 export default function Intro() {
 
   const {ref} = useSectionInView("Home",0.5)
+
+  const {setActiveSection,setTimeofLastClick} = useActiveSection()
 
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
@@ -61,14 +64,18 @@ export default function Intro() {
             <Link href="#contato" className="group bg-gray-900 text-white
             px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110
             hover:scale-110 active:scale-105 hover:bg-gray-950
-            transition">Entrar em contato <BsArrowRight className=" group-hover:translate-x-1 bg-opacity-70"/>
+            transition">Entrar em contato <BsArrowRight className=" group-hover:translate-x-1 bg-opacity-70"
+            onClick={() =>{
+                setActiveSection("Sobre")
+                setTimeofLastClick(Date.now())
+            }}/>
             </Link>
 
                <a href="/CV.pdf" download className="group bg-white px-7 py-3 flex 
                    items-center gap-2 rounded-full  outline-none focus:scale-110
                    hover:scale-110 active:scale-105 
                    transition cursor-pointer border
-                   border-black/10" >
+                   border-black/10 dark:bg-white/10" >
                   Baixar currículo <HiDownload className="opacity-60 group-hover:translate-y-1"/>
                </a>
 
@@ -76,7 +83,7 @@ export default function Intro() {
                   p-4 flex items-center gap-2 rounded-full focus:scale-[1.15]
                   hover:scale-[1.15] active:scale-105 
                   transition cursor-pointer border
-                  border-black/10">
+                  border-black/10 dark:bg-white/10 dark:text-white/60">
                 <BsLinkedin/>
                </a>
 
@@ -84,7 +91,7 @@ export default function Intro() {
                   p-4 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15]
                   hover:scale-[1.15] active:scale-105 
                   transition cursor-pointer border
-                  border-black/10">
+                  border-black/10 dark:bg-white/10 dark:text-white/60">
                 <FaGithubSquare/>
                </a>
 
