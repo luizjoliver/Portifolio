@@ -20,21 +20,15 @@ export default function About() {
           <SectionHeading>Sobre eu </SectionHeading>
 
           <p className="mb-3">
-            After graduating with a degree in{" "}
-            <span className="font-medium">Accounting</span>, I decided to pursue my
-            passion for programming. I enrolled in a coding bootcamp and learned{" "}
-            <span className="font-medium">full-stack web development</span>.{" "}
-            <span className="italic">My favorite part of programming</span> is the
-            problem-solving aspect. I <span className="underline">love</span> the
-            feeling of finally figuring out a solution to a problem. My core stack
-            is{" "}
+            Depois de finalizar meu segundo grau{" "}, Eu decidi investir na minha paixão pela área de tecnologia
+            e programação. Então acabei escolhendo cursar a aréa tecnólogo em ADS{" "}
+            <span className="font-medium">e estudar cada vez mais sobre programação , tais como fundamentos sobre desenvolvimento full stack e afins.</span>.{" "}
+            <span className="italic">Minha parte favorita na programação </span> é poder resolver 
+            problemas do mundo real e gerar maior qualidade de vida neste mundo moderno para as pessoas. Minha stack atual é {" "}
             <span className="font-medium">
-            React, Next.js, Node.js, and MongoDB
+            React, Next.js, Node.js, mySql, e mongoDB
             </span>
-            . I am also familiar with TypeScript and Prisma. I am always looking to
-            learn new technologies. I am currently looking for a{" "}
-            <span className="font-medium">full-time position</span> as a software
-            developer.
+            .Eu também utilizo typeScript devido as grandes vantagens e o Prisma ORM. Estou sempre diposto a aprender novas tecnologias com intuito de resolução de problemas e atualmente estou procurando por uma nova oportunidade na área{" "}.
           </p>
     </motion.section>
   )

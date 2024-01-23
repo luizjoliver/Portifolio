@@ -31,7 +31,7 @@ export async function SendEmail(formData:FormData) {
      
       try {
         data = await resend.emails.send({
-          from: 'Portifolio <onboarding@resend.com>',
+          from: `Portfólio <onboarding@resend.dev>`,
           to: 'luizfellipejoliver14@gmail.com',
           reply_to:senderEmail as string,
           subject:"Messagem do formulário de contato",

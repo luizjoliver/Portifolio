@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import dashgo from "@/public/dashgo.png"
+import dtmoney from "@/public/dtmoney.png";
+import petzone from "@/public/petzone.png";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Curso Técnologo ADS",
+    location: "Brasil, DF",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Eu começei o curso técnologo ADS em 2022 na UNICEUB com data prevista de término para final do segundo semestre de 2024",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Projeto Integrador PetZone",
+    location: "Brasil, DF",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Durante o curso de ADS trabalhei paralelamente no projeto PetZone juntamente com alguns colegas de turma durante a disciplina Projeto Integrador.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Curso Full Stack - OneBitCode",
+    location: "Remoto, Brasil",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Realizei o curso de certificção Full Stack OneBitCode paralelamente durante os meus primeiros messes no curso técnologo de ADS",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DashGo",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "O Projet Dashgo conta com um dashboard  visual com os dados cadastrados do cliente , portanto sendo um ferramenta visual poderosa",
+    tags: ["React", "Next.js", "ChackraUI", "FramerMotion", "Zod","ReactQuery","apexcharts"],
+    imageUrl: dashgo,
   },
   {
-    title: "rmtDev",
+    title: "dtMoney",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Projeto dtMoney é um projeto com inteface moderna , que tem como função auxilíar a gerenciar as despesas diárias , sendo um ótimo ajudante na hora de gerenciar os gastos",
+    tags: ["React",  "Next.js","Miragejs", "Tailwind"],
+    imageUrl: dtmoney,
   },
   {
-    title: "Word Analytics",
+    title: "PetZone",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Projeto PetZone foi um projeto criado durante o meu curso Técnologo ADS. PetZone tem o intuito de ser uma plataforma pet que possa ajuda veterinários ao atender as necessidades dos Pets",
+    tags: ["React", "Next.js", "Sass", "AOS","MongoDB"],
+    imageUrl: petzone,
   },
 ] as const;
 
@@ -97,6 +97,8 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Jest",
+  "Zod",
+  "RactQuery",
   "Express",
   "PostgreSQL",
   "MySQL",
