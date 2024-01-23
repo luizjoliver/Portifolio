@@ -4,8 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import dashgo from "@/public/dashgo.png"
 import dtmoney from "@/public/dtmoney.png";
-import petzone from "@/public/petzone.png";
 
+import petzone from "@/public/petzone.png"
+ 
 export const links = [
   {
     name: "Home",
