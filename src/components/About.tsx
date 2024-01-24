@@ -26,7 +26,7 @@ export default function About() {
             <span className="italic">Minha parte favorita na programação </span> é poder resolver 
             problemas do mundo real e gerar maior qualidade de vida neste mundo moderno para as pessoas. Minha stack atual é {" "}
             <span className="font-medium">
-            React, Next.js, Node.js, mySql, e mongoDB
+            React, Next.js, Node.js, MySQL, e MongoDB
             </span>
             .Eu também utilizo typeScript devido as grandes vantagens e o Prisma ORM. Estou sempre diposto a aprender novas tecnologias com intuito de resolução de problemas e atualmente estou procurando por uma nova oportunidade na área{" "}.
           </p>

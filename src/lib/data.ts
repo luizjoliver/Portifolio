@@ -66,8 +66,9 @@ export const projectsData = [
     title: "DashGo",
     description:
       "O Projet Dashgo conta com um dashboard  visual com os dados cadastrados do cliente , portanto sendo um ferramenta visual poderosa",
-    tags: ["React", "Next.js", "ChackraUI", "FramerMotion", "Zod","ReactQuery","apexcharts"],
+    tags: ["React", "Next.js", "ChackraUI","ReactQuery","apexcharts"],
     imageUrl: dashgo,
+    repositoryUrl:"https://github.com/luizjoliver/Dashgo"
   },
   {
     title: "dtMoney",
@@ -75,6 +76,7 @@ export const projectsData = [
       "Projeto dtMoney é um projeto com inteface moderna , que tem como função auxilíar a gerenciar as despesas diárias , sendo um ótimo ajudante na hora de gerenciar os gastos",
     tags: ["React",  "Next.js","Miragejs", "Tailwind"],
     imageUrl: dtmoney,
+    repositoryUrl:"https://github.com/luizjoliver/Dt-Money"
   },
   {
     title: "PetZone",
@@ -82,6 +84,7 @@ export const projectsData = [
       "Projeto PetZone foi um projeto criado durante o meu curso Técnologo ADS. PetZone tem o intuito de ser uma plataforma pet que possa ajuda veterinários ao atender as necessidades dos Pets",
     tags: ["React", "Next.js", "Sass", "AOS","MongoDB"],
     imageUrl: petzone,
+    repositoryUrl:"https://github.com/luizjoliver/Projeto-Integrador"
   },
 ] as const;
 

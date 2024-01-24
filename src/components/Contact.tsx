@@ -23,8 +23,9 @@ export default function Contact() {
     viewport={{once:true}}>
         <SectionHeading>Entrar em Contato</SectionHeading>
 
-        <p className='text-gray-700 -mt-6 text-[1rem] dark:text-white/80'> Entre em contato atráves do meu email 
-            <a href="mailto:luizfellipejoliver14@gmail.com"className=''> luizfellipejoliver14@gmail.com </a> 
+        <p className='text-gray-700 -mt-6 text-[1rem] dark:text-white/80 pt-5'> Entre em contato atráves do meu email 
+            <a href="mailto:luizfellipejoliver14@gmail.com" className='text-gray-950 hover:underline
+            dark:text-gray-500'> luizfellipejoliver14@gmail.com </a> 
            ou diretamente atráves deste formulário
         </p>
 
