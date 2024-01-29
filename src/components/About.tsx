@@ -20,15 +20,13 @@ export default function About() {
           <SectionHeading>Sobre eu </SectionHeading>
 
           <p className="mb-3">
-            Depois de finalizar meu segundo grau{" "}, Eu decidi investir na minha paixão pela área de tecnologia
-            e programação. Então acabei escolhendo cursar a aréa tecnólogo em ADS{" "}
-            <span className="font-medium">e estudar cada vez mais sobre programação , tais como fundamentos sobre desenvolvimento full stack e afins.</span>.{" "}
-            <span className="italic">Minha parte favorita na programação </span> é poder resolver 
+            Depois de finalizar meu segundo grau{" "}, eu decidi investir na minha paixão pela área de tecnologia
+            e programação. Então acabei escolhendo cursar a aréa de ADS{" "}
+            <span className="font-medium">e estudar cada vez mais sobre programação , tais como fundamentos sobre desenvolvimento <span className="italic">full stack </span>e afins...</span>{" "}
+            Minha parte favorita na programação  é poder resolver 
             problemas do mundo real e gerar maior qualidade de vida neste mundo moderno para as pessoas. Minha stack atual é {" "}
-            <span className="font-medium">
-            React, Next.js, Node.js, MySQL, e MongoDB
-            </span>
-            .Eu também utilizo typeScript devido as grandes vantagens e o Prisma ORM. Estou sempre diposto a aprender novas tecnologias com intuito de resolução de problemas e atualmente estou procurando por uma nova oportunidade na área{" "}.
+            <span className="font-medium">React,TypeScript,Next.js, Node.js, MySQL/PostgreSQL, Prisma ORM e MongoDB  </span>
+            . Sou uma pessoa que sempre está diposta a aprender novas tecnologias com intuito de resolução de problemas e atualmente estou procurando por uma nova oportunidade na área{" "}.
           </p>
     </motion.section>
   )
