@@ -71,7 +71,7 @@ export default function Intro() {
             }}/>
             </Link>
 
-               <a href="https://drive.google.com/file/d/1xY7kbFaY4u12XaLcNsj2WmMW40CBHk9c/view?usp=sharing"  target="_blank" download className="group bg-white px-7 py-3 flex 
+               <a href="https://drive.google.com/file/d/1-osR1Kbk3hcHUgpHC0Fk-cZM86zd7Dxy/view?usp=sharing"  target="_blank" download className="group bg-white px-7 py-3 flex 
                    items-center gap-2 rounded-full  outline-none focus:scale-110
                    hover:scale-110 active:scale-105 
                    transition cursor-pointer border
